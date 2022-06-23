@@ -1,0 +1,19 @@
+{
+    "name": "dfytech/worldtime",
+    "description": "A simple laravel package that consumes a third-party API to display current local times in a selection of different time zones consuming is https://worldtimeapi.org/",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dfytech\\Worldtime\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "M Iftakher Ahammed",
+            "email": "iahammed@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
