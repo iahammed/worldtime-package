@@ -15,5 +15,15 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dfytech\\Worldtime\\WorldtimeServiceProvider"
+            ],
+            "aliases": {
+                "Worldtime": "Dfytech\\Worldtime\\Worldtime"
+            }
+        }
+    }
 }
