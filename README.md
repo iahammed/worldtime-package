@@ -1,4 +1,4 @@
-## Laravel Weather Package
+## Laravel Worldtime Package
 
 A simple laravel package that consumes a third-party API to display current local times in a selection of different time zones consuming is https://worldtimeapi.org/
 
