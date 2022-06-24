@@ -20,7 +20,12 @@ class WorldTimeController extends Controller
         $this->timezones = $this->timezones();
         $this->time = [];
     }
-    
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
     public function index()
     {
         return view('worldtime::index')
@@ -28,6 +33,12 @@ class WorldTimeController extends Controller
             ->with('time', $this->time);
     }
 
+    /**
+     * Display the specified resource.
+     *
+     * @param  String  $str
+     * @return \Illuminate\Http\Response
+     */
     public function getTime(Request $request)
     {
         $this->time = $this->timezone($request->timeZone);

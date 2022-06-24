@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'timezone' => env('TIMEZONE_URL', 'http://worldtimeapi.org/api/timezone'),
+    'timezone' => env('TIMEZONE_URL', 'https://worldtimeapi.org/api/timezone'),
 ];
 

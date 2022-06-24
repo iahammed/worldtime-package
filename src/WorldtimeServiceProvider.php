@@ -8,18 +8,27 @@ use Dfytech\Worldtime\Console\InstallationCommand;
 
 class WorldtimeServiceProvider extends ServiceProvider
 {
+    /**
+     * Register any Packge services.
+     *
+     * @return void
+     */
+    public function register()
+    {
 
+    }
+    
+    /**
+     * Bootstrap Package services.
+     *
+     * @return void
+     */
     public function boot()
     {
         $this->registerCommand();
         $this->registerConfig();
         $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'worldtime');
-    }
-
-    public function register()
-    {
-
     }
 
     /**
