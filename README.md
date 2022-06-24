@@ -11,22 +11,22 @@ WorldTimeAPI: https://worldtimeapi.org/
 
 install laravel package using following command
 ```
-$ composer create-project laravel/laravel <your-app-name>
+composer create-project laravel/laravel <your-app-name>
 ```
 
 You can install this package via composer:
 ```bash
-$ composer require dfytech/worldtime
+composer require dfytech/worldtime
 ```
 
 Install DfytechWeather configuration
 ```bash
-$ php artisan worldtime:install
+php artisan worldtime:install
 ```
 
 Publishing vendor
 ```bash
-$ php artisan vendor:publish --tag=worldtime
+php artisan vendor:publish --tag=worldtime
 ```
 
 ## Use
